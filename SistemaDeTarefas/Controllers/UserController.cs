@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SistemaDeTarefas.Models;
+using SistemaDeTarefas.Repositories;
 using SistemaDeTarefas.Repositories.Interfaces;
 
 namespace SistemaDeTarefas.Controllers
