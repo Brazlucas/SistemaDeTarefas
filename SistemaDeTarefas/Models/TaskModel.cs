@@ -9,7 +9,6 @@ namespace SistemaDeTarefas.Models
         public string? Description { get; set; }
         public StatusTask Status { get; set; }
         public int? UserId { get; set; }
-
         public virtual UserModel? User { get; set; }
     }
 }
